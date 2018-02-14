@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
             print("Enter smaller number: ")
             n2 = readLine()?.toInt() ?: 0
             Uh.calc(n1, n2)
-        } catch(e:NumberFormatException) {
+        } catch(e: NumberFormatException) {
             println("Program terminated.")
             exit(0)
         }
